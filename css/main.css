@@ -57,7 +57,7 @@ section {
 }
 
 
-	/*General Link Styles*/
+	/* Link Styles */
 	
 	a:link {
 		color: rgb(255, 255, 255);
@@ -78,6 +78,13 @@ section {
 		color: rgb(255, 255, 255);
 		text-decoration: none;
 	}
+	
+	.return {
+		display: block;
+		float: right;
+		clear: both;
+		margin-right: 4%;
+}
 
  /* Header Styles */
  
@@ -112,12 +119,6 @@ h1 {
 	font-weight: bold;
 }
  
-.return {
-	display: block;
-	float: right;
-	clear: both;
-	margin-right: 4%;
-}
 	 
 	/* Top Navigation Styles */
 	
