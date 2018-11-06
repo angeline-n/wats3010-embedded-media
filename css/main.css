@@ -49,7 +49,7 @@ section {
 }
 
 .download-button::before {
-    content: url("../img/download-button-min.jpg");
+    content: url("../img/download-button-min.png");
     display: inline-block;
 	position: relative;
 	top: 0.5rem;
