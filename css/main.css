@@ -18,8 +18,12 @@ body {
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
-	background-image: url("../img/background-min.jpg");
-	background-size: cover;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49777f+0,5aa3a6+11,c25c81+28,5aa3a6+56,639f53+83,6594b3+97 */
+	background: #49777f; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #49777f 0%, #5aa3a6 11%, #c25c81 28%, #5aa3a6 56%, #639f53 83%, #6594b3 97%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #49777f 0%,#5aa3a6 11%,#c25c81 28%,#5aa3a6 56%,#639f53 83%,#6594b3 97%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #49777f 0%,#5aa3a6 11%,#c25c81 28%,#5aa3a6 56%,#639f53 83%,#6594b3 97%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49777f', endColorstr='#6594b3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 li {
